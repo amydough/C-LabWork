@@ -1,0 +1,150 @@
+/*margin setting for all elements */
+* {
+    margin: 10px;
+}
+
+body {
+    background-color: black;
+}
+
+/*top bar with app name and navigation */
+#home {
+    margin: -1cm;
+    margin-right: --1cm;
+    margin-left: --1cm;
+    padding-top: 1cm;
+    padding-bottom: 2cm;
+    background-color: rgb(137, 0, 250);
+}
+
+/*application name */
+
+header {
+    font-size: 30px;
+    color: lightgray;
+    float: left;
+    padding-left: 2cm;
+}
+
+/*navigation bar */
+
+nav {
+    float: right;
+    padding-right: 1cm;
+}
+
+/* navigation buttons */
+
+nav button {
+    background-color: rgb(137, 0, 250);
+    color: lightgray;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+/*nav button hover effect */
+
+nav button:hover {
+    color: white;
+    font-weight: bolder;
+    background-color: black;
+    text-decoration: underline;
+}
+
+/* containers for conversion sections */
+
+#all-conversion-sections {
+    display: grid;
+    justify-content: center;
+}
+
+/*figure in containers*/
+
+#all-conversion-sections figure {
+    float: left;
+    justify-content: auto;
+    width: 200px;
+}
+
+/* img tag and caption in containers */
+#all-conversion-sections img {
+    width: 200px;
+}
+
+#all-conversion-sections figcaption {
+    color: black;
+    font-size: 17px;
+    text-align: center;
+}
+
+/* Conversion button plus hover effect */
+#all-conversion-sections button {
+    font-size: 20px;
+    border: transparent;
+    border-radius: 40px;
+    width: fit-content;
+    background-color: lightgreen;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#all-conversion-sections button:hover {
+    cursor: pointer;
+}
+
+/* Calculator panel */
+#all-conversion-sections section {
+    border-top-style: solid;
+    border-top-width: 20px;
+    border-radius: 10px;
+    background-color: white;
+    width: 600px;
+    height: 400px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    display: flex;
+}
+
+#temperature {
+    border-top-color: green;
+}
+
+#weight {
+    border-top-color: coral;
+}
+
+#distance {
+    border-top-color: cyan;
+}
+
+legend {
+    font-size: 30px;
+    font-weight: border;
+}
+
+/* Floating icon for the home button */
+#go-home{
+    width:40px;
+    height:40px;
+    border-radius: 100%;
+    background-color: rgb(225, 235, 235);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    bottom:40px;
+    left:0;
+    }
+
+#go-home img {
+    width:30px
+}
+
+/* footer */ 
+footer {
+    background-color:rgb(240, 234, 245);
+    margin-top: 20px;
+}
